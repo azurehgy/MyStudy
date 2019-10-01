@@ -1,0 +1,42 @@
+$ git config --global user.name "Azure Hgy"
+$ git config --global user.email azurehgy@zoho.com
+
+git clone -url of the repo
+git remote -url of the repo
+git remote https://github.com/azurehgy/MyStudy.git
+git add origin -url of the repo
+git add origin master https://github.com/azurehgy/MyStudy.git
+
+git remote add origin git@git.assembla.com:portfolio/space.space_name.git
+#set a new remote
+git remote -v
+#Verify new remote
+
+Use the pwd command to see which path you are currently in.
+
+git status
+git add .
+
+git commit -m "initial commit"
+git log
+
+git push origin master
+
+merge from new branch to master
+git checkout master
+git merge new-branch
+
+
+$ git checkout master
+$ git branch new-branch
+$ git checkout new-branch
+
+# ...develop some code...
+
+$ git add –A
+$ git commit –m "Some commit message"
+$ git checkout master
+$ git merge new-branch
+
+
+git reset --hard origin/master
